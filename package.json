@@ -1,0 +1,40 @@
+{
+  "name": "serviceuserworkshop",
+  "version": "1.0.0",
+  "description": "service user workshop i1 2021-2022",
+  "main": "index.js",
+  "scripts": {
+    "serve": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeancharlescano/serviceUser.git"
+  },
+  "author": "Jean-Charles CANO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeancharlescano/serviceUser/issues"
+  },
+  "homepage": "https://github.com/jeancharlescano/serviceUser#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^8.4.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.37",
+    "uuid": "^8.3.2",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^13.7.4",
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.8.2"
+  }
+}
